@@ -37,7 +37,7 @@ export default function Footer() {
               className="text-2xl font-bold mb-4"
               style={{ color: '#0F172A' }}
             >
-              Pennypal
+              <img src="/asset/logofull-white.png" alt="" className='w-[250px]' />
             </div>
             <p style={{ color: '#6B7280', fontSize: '0.875rem' }}>
               Building financial discipline for all Nigerians.

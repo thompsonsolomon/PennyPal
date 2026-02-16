@@ -36,9 +36,10 @@ export default function Navbar() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.1 }}
-          className="text-2xl font-bold"
+          className="text-2xl font-bold flex items-center gap-2"
           style={{ color: '#0F172A' }}
         >
+          <img src="/asset/logoround-white.png" className='w-[30px]' alt="" />
           Pennypal
         </motion.div>
 
